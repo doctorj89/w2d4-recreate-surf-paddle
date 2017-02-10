@@ -38,6 +38,33 @@ body {
     color: blue;
 }
 
+.button {
+    color: white;
+    margin-right: 30px;
+}
+
+.buttonIcon {
+    background: #5E686F;
+    padding: 5px 7px;
+    display: inline-block;
+
+}
+
+.buttonLabel {
+    margin-left: -4px;  
+    background: #A2B3C0;
+    padding: 5px 7px;
+    display: inline-block;
+}
+
+.shareIcon {
+    background: #053353;
+}
+
+.shareLabel {
+    background: blue;
+}
+
 .socialMedia {
     color: gray;
 }
