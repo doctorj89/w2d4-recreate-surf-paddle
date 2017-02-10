@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+}
+
+.headerImage {
+    margin: 0;
+    background-image: linear-gradient(rgba(23, 116, 185, 0.5), rgba(23, 116, 185, 0.5)), url(https://unsplash.it/600?random);
+    height: 300px;
+    background-size: cover;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    /*opacity: .5;*/
+}
+
+.logo {
+    width: 30px;
+}
+
+/*.blackText {
+    color: black;
+}*/
+
+.topRow {
+    font-size: 15px;
+    opacity: 1;
+    color: white;
+}
+
+.headline {
+    color: blue;
+}
+
+.socialMedia {
+    color: gray;
+}
+
+.aboutAd {
+    margin-bottom: 100px;
+}
+
+.imageGallery {
+    padding: 0;
+    background-image: linear-gradient(rgba(23, 116, 185, 0.5), rgba(23, 116, 185, 0.5));
+
+    /*opacity: .5;*/
+    /*background: blue;*/
+    
+}
+
+.image {
+    opacity: .5;
+    background: blue;
+}
+
+.image:hover {
+    opacity: 1;
+    color: white;
+}
+
+.image:hover ~ .bottomright {
+    color: white;
+}
+
+/*.selectedImage {
+    opacity: 1;
+}*/
+
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    color: black;
+    opacity: 1;
+}
+
+/*.selectedPhoto {
+    color: white;
+}*/
+
+.bottomBar {
+    background-color: darkblue;
+    color: white;
+    height: 75px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.navItems {
+    padding-top: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.circleImage {
+    width: 100px;
+    margin-top: 25px;
+}
+
+.smallCircleImage {
+    width: 20px;
+}
+
+.squareImage {
+    width: 400px;
+}
+
+.imageBackground {
+    background: blue;
+}
+
+.translucentImage {
+    opacity: .5;
+}
